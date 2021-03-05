@@ -31,6 +31,7 @@ def main():
 		button = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[3]/button') 
 		button.click() 
 	print('Bombing Complete!!')
+	input('Press any key to exit')
 
 banner()
 main()
